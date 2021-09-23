@@ -1,0 +1,4 @@
+reset;
+model ex3.mod;
+option solver gurobi;
+solve;

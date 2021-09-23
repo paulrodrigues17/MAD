@@ -1,0 +1,7 @@
+model gcp.mod;
+data gcp.dat;
+option solver gurobi;
+solve;
+display y;
+option display_1col 0; 
+display x;

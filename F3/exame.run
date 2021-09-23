@@ -1,0 +1,5 @@
+reset;
+model exame.mod;
+option solver gurobi;
+solve;
+display y1, y2, y3, y4;
